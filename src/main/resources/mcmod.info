@@ -1,0 +1,16 @@
+[
+{
+  "modid": "___AnythinClient___",
+  "name": "Anything Client",
+  "description": "Just another minecraft client",
+  "version": "1.0",
+  "mcversion": "1.8.9",
+  "url": "https://github.com/Gabriel160204",
+  "updateUrl": "",
+  "authorList": ["gab1604"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
