@@ -16,7 +16,7 @@ public class HudMods extends Module {
 	
 	@SubscribeEvent
 	public void onRender(RenderTickEvent event) {;
-		if (!Keyboard.isKeyDown(keyCode))
+		if (!Keyboard.isKeyDown(keyCode) || mc.ingameGUI.getChatGUI().getChatOpen())
 			return;
 		
 		mc.displayGuiScreen(new Hud());
